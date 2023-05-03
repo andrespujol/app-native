@@ -2,11 +2,11 @@ import React from "react";
 import { Text, TouchableOpacity } from "react-native";
 import { styles } from "./styles";
 
-const EventItem = ({ item }) => {
+const EventItem = ({ item, onSelectItem }) => {
     return (
       <TouchableOpacity
         style={styles.itemContainer}
-        onPress={() => onHandlerEvent(item.id)}
+        onPress={() => onSelectItem(item.id)}
       >
         <Text style={styles.item}>{item.value}</Text>
       </TouchableOpacity>

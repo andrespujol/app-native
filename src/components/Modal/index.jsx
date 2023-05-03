@@ -1,6 +1,5 @@
-import { Modal, View, Text } from "react-native";
+import { Modal, View, Text, Button } from "react-native";
 import { styles } from "./styles";
-import { ButtonDefault } from '../index';
 const CustomModal = ({ isVisible, animationType, onCancel, onDelete, selectedEvent}) => {
 
     return (
@@ -12,12 +11,12 @@ const CustomModal = ({ isVisible, animationType, onCancel, onDelete, selectedEve
                     <Text style={styles.modalSelectedEvent}>{selectedEvent?.value}</Text>
                 </View>
                 <View style={styles.modalButtonsContainer}>
-                    <ButtonDefault
+                    <Button
                         color={'#0B3954'}
                         title={'Cancelar'}
                         onPress={onCancel}
                     />
-                    <ButtonDefault
+                    <Button
                         color={'#0B3954'}
                         title={'Eliminar'}
                         onPress={() => onDelete(selectedEvent.id)}

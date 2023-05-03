@@ -34,6 +34,3 @@ export const styles = StyleSheet.create({
   },
   modalButton: {},
 });
-
-onHandlerCancelModal;
-onHandlerDeleteEvent;
