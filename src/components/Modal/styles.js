@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
   },
   modalTitle: {
     fontSize: 16,
-    fontWeight: "bold",
+    // fontWeight: "bold",
     marginBottom: 10,
   },
   modalbody: {
@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
   modalSelectedEvent: {
     fontSize: 14,
     color: "#212121",
-    fontWeight: "bold",
+    // fontWeight: "bold",
     paddingVertical: 10,
     textAlign: "center",
     marginBottom: 20,

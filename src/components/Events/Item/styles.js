@@ -15,6 +15,6 @@ export const styles = StyleSheet.create({
     marginHorizontal: 10,
     color: "#fff",
     fontSize: 16,
-    fontWeight: "bold",
+    // fontWeight: "bold",
   },
 });
